@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>PocketDoc</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<
+<link rel="stylesheet"  href="{{ url_for('static', filename='w3.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='all.css') }}">
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+<body>
+
+
+  <div class="w3-bar w3-black w3-padding-24" style="font-size:20px;">
+    <a href="" class="w3-bar-item w3-button" >Home</a>
+    <a href="" class="w3-bar-item w3-button" >Chat</a>
+    <a href="" class="w3-bar-item w3-button">Detect</a>
+    
+
+    
+  </div>
+
+
+<br><br><br>
+
+   
+        
+
+  <div class="w3-container w3-center"> <h1>Image Result</h1></div>
+   
+                 
+<br>
+    <!-- Basic -->
+    <div class="w3-container">
+       
+	<img src="{{ user_image }}" class="w3-card-4"  alt="User Image"  style="width:100%;height:500px;" >
+                
+    </div> <!-- end of ex-basic-1 -->
+    <!-- end of basic -->
+    
+<div class="w3-center">
+
+     
+ 
+            <br>
+            <h1><b><i>The Image Result is <span class="w3-xxlarge w3-center">{{product}}</span></i></b></h1>
+            
+    </div>
+
+   <br><br><br>
+    
+    <div class="w3-row">
+
+            <div class="w3-third w3-container w3-center">
+                <h1>Chat</h1>
+                <span class="fa-stack fa-4x">
+                    <i class="fas fa-circle fa-stack-2x "></i>
+                    <a href=""><i class=" fas fa-comments fa-stack-1x fa-inverse text-primary" ></i></a>
+                </span>
+                <h4 class="my-3">Chat</h4>
+                
+               
+            </div>
+            <div class="w3-third w3-container w3-center">
+                <h1>Video</h1>
+                <span class="fa-stack fa-4x">
+                    <i class="fas fa-circle fa-stack-2x "></i>
+                    <i class="fas fa-video fa-stack-1x fa-inverse"></i>
+                </span>
+                <h4 class="my-3">Video Call</h4>
+                
+               
+            </div>
+            <div class="w3-third w3-container w3-center">
+                <h1>Chat</h1>
+                
+                    
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x"></i>
+                        <i class="fas fa-handshake fa-stack-1x fa-inverse"></i>
+                      </span> 
+               
+               
+                <h4 class="my-3">Appointment</h4>
+                 
+                
+
+
+        </div>
+        
+    
+    
+      
+    
+
+
+  
+   
+</body>
+</html>
