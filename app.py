@@ -44,7 +44,7 @@ def predict():
         img = read_image(file_path)
         # Predict the class of an image
                 
-        model1 = load_model('braincnn.h5')
+        model1 = load_model('potato1.h5')
         result = model1.predict(img).round(3)
         pred = np.argmax(result)
            
